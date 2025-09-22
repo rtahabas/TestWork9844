@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    padding: 1.5rem 0.75rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 1rem 0.5rem;
+  }
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+  padding-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.comingSoonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.comingSoonContent {
+  text-align: center;
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.comingSoonIcon {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+
+  svg {
+    @media (max-width: 480px) {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
+
+.comingSoonTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 1rem 0;
+
+  @media (max-width: 480px) {
+    font-size: 1.1rem;
+  }
+}
+
+.comingSoonMessage {
+  font-size: 1rem;
+  color: #6c757d;
+  margin: 0;
+  line-height: 1.5;
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
+}
+
+.loadingContainer {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.loadingText {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin: 0;
+}
