@@ -31,7 +31,7 @@ export default function CamerasPage() {
             </div>
             <h2 className={styles.comingSoonTitle}>Coming Soon</h2>
             <p className={styles.comingSoonMessage}>
-              We're working hard to bring you an amazing collection of cameras.
+              We&apos;re working hard to bring you an amazing collection of cameras.
               Stay tuned for the latest digital cameras, lenses, and photography equipment.
             </p>
           </div>

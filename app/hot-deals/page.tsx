@@ -30,7 +30,7 @@ export default function HotDealsPage() {
             </div>
             <h2 className={styles.comingSoonTitle}>Coming Soon</h2>
             <p className={styles.comingSoonMessage}>
-              We're preparing amazing deals and special offers for you.
+              We&apos;re preparing amazing deals and special offers for you.
               Check back soon for incredible discounts on your favorite products.
             </p>
           </div>

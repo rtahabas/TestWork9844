@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { Product } from '@/types';
 import { useAuthStore } from '@/store/authStore';
 import styles from './ProductCard.module.scss';
@@ -15,10 +16,12 @@ export default function ProductCard({ product }: ProductCardProps) {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
-        <img
+        <Image
           src={product.thumbnail}
           alt={product.title}
           className={styles.image}
+          width={300}
+          height={200}
           loading="lazy"
         />
       </div>

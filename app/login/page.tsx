@@ -52,7 +52,7 @@ export default function LoginPage() {
 
     try {
       await login({ username: username.trim(), password: password.trim() });
-    } catch (err) {
+    } catch {
       // Error is already handled by the store
     }
   };
